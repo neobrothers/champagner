@@ -106,7 +106,7 @@ z-index: 9999999;
 display: flex;
 align-items: center;
 justify-content: center;
-font-family: 'Italiana' !important;
+font-family: 'Italiana', serif !important;
 }
 
 .age-box {
@@ -124,10 +124,11 @@ font-size: 22px;
 margin-bottom: 20px;
 letter-spacing: 0.5px;
 position: relative;
-font-family: 'Italiana' !important;
+font-family: 'Italiana', serif !important;
 }
 
 .age-box h1::after {
+content: "";
 display: block;
 width: 80px;
 height: 2px;
