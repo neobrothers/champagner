@@ -1,0 +1,60 @@
+<svg width="200" height="200" viewBox="0 0 200 200"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- Cercle de fond -->
+<circle cx="100" cy="100" r="90" fill="#dcae70"/>
+
+<!-- Contours -->
+<circle cx="100" cy="100" r="90" fill="none" stroke="#000" stroke-width="4"/>
+<circle cx="100" cy="100" r="82" fill="none" stroke="#000" stroke-width="1.5"/>
+
+<!-- Définition des chemins -->
+<defs>
+<!-- Ligne du haut -->
+<path id="curve1" d="M 40 100 A 60 60 0 0 1 160 100"/>
+<!-- Ligne juste en dessous -->
+<path id="curve2" d="M 40 100 A 65 60 0 0 1 160 100"/>
+</defs>
+
+<!-- TEXTE 1 -->
+<text font-family="Arial" font-size="22" font-weight="bold" fill="#000">
+<textPath href="#curve1" startOffset="50%" text-anchor="middle">
+DECANTER
+</textPath>
+</text>
+
+<!-- TEXTE 2 -->
+<text font-family="Arial" font-size="10" font-weight="bold" fill="#000">
+<textPath href="#curve2" startOffset="50%" text-anchor="middle">
+World Wines Awards
+</textPath>
+</text>
+
+<!-- Nombre de points -->
+<text x="50%" y="95" dominant-baseline="middle"
+text-anchor="middle"
+font-family="Georgia, serif"
+font-size="62" font-weight="bold"
+fill="#000">
+90
+</text>
+
+<!-- POINTS -->
+<text x="50%" y="130" dominant-baseline="middle"
+text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="18" font-weight="bold"
+letter-spacing="1"
+fill="#000">
+POINTS
+</text>
+
+<!-- Année -->
+<text x="50%" y="85%" text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="28" font-weight="bold"
+fill="#000">
+2021
+</text>
+
+</svg>

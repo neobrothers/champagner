@@ -1,0 +1,56 @@
+<svg width="200" height="200" viewBox="0 0 200 200"
+xmlns="http://www.w3.org/2000/svg">
+
+<!-- Cercle de fond -->
+<circle cx="100" cy="100" r="90" fill="gold"/>
+
+<!-- Contours -->
+<circle cx="100" cy="100" r="90" fill="none" stroke="#000" stroke-width="4"/>
+<circle cx="100" cy="100" r="82" fill="none" stroke="#000" stroke-width="1.5"/>
+
+<!-- Définition des chemins -->
+<defs>
+<!-- Ligne du haut -->
+<path id="curve1" d="M 38 108 A 62 62 0 0 1 162 108"/>
+</defs>
+
+<!-- TEXTE 1 -->
+<text font-family="Arial" font-size="28" font-weight="bold" fill="#000">
+<textPath href="#curve1" startOffset="50%" text-anchor="middle">
+SAKURA
+</textPath>
+</text>
+
+<!-- TEXTE 2 -->
+<text x="100" y="82" font-family="Arial" font-size="10" font-weight="bold" fill="#000" text-anchor="middle">
+Japan Women's Wine Award
+</text>
+
+<!-- Nombre de points -->
+<text x="50%" y="105" dominant-baseline="middle"
+text-anchor="middle"
+font-family="Georgia, serif"
+font-size="35" font-weight="bold"
+fill="#000">
+GOLD
+</text>
+
+<!-- POINTS -->
+<text x="50%" y="130" dominant-baseline="middle"
+text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="18" font-weight="bold"
+letter-spacing="1"
+fill="#000">
+MEDAL
+</text>
+
+<!-- Année -->
+<text x="50%" y="85%" text-anchor="middle"
+font-family="Arial, sans-serif"
+font-size="28" font-weight="bold"
+fill="#000">
+2021
+</text>
+
+</svg>
